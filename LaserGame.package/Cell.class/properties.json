@@ -6,11 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cells",
-		"laserIsActive",
-		"numberOfRows",
-		"numberOfColumns"
+		"activeSegments",
+		"exitSides"
 	],
-	"name" : "Grid",
+	"name" : "Cell",
 	"type" : "normal"
 }

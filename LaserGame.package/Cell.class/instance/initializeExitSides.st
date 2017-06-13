@@ -1,0 +1,3 @@
+initialization
+initializeExitSides
+	self subclassResponsibility

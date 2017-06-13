@@ -1,10 +1,11 @@
 tests
-testCellLaserActivity
+testCellLaserActivityMirrorLeft
 	| cell |
-	cell := BlankCell new.
+	cell := MirrorCell leanLeft.
 	cell laserEntersFrom: #north.
+	
 	self assert: cell isOn.
 	self assert: (cell isSegmentOnFor: #north).
-	self assert: (cell isSegmentOnFor: #south).
-	self assert: (cell isSegmentOnFor: #east) not.
+	self assert: (cell isSegmentOnFor: #east).
+	self assert: (cell isSegmentOnFor: #south) not.
 	self assert: (cell isSegmentOnFor: #west) not.

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Cell",
-	"category" : "LaserGame-Models",
+	"super" : "TestCase",
+	"category" : "LaserGame-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TargetCell",
+	"name" : "TargetCellTestCase",
 	"type" : "normal"
 }

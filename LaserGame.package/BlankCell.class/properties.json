@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "LaserGame-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"activeSegments",
+		"exitSides"
+	],
+	"name" : "BlankCell",
+	"type" : "normal"
+}
